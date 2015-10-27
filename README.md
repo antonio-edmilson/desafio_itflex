@@ -24,8 +24,8 @@ Para testar aplicação por interface gráfica acesse o seguinte link:
 http://localhost:8000/tarefas
 
 Para testar API Rest Task execute o seguintes comandos abaixo:
-//Inserir resgistro
-curl -X POST -H "Content-Type: application/json" -d '{"task": "TESTE REST1", "done":0}' http://localhost:8000/task/
+Inserir resgistro?
+- curl -X POST -H "Content-Type: application/json" -d '{"task": "TESTE REST1", "done":0}' http://localhost:8000/task/
 
-//Ler registros
-curl http://localhost:8000/task/
+Ler registros:
+- curl http://localhost:8000/task/
