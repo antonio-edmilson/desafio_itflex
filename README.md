@@ -16,10 +16,8 @@ Caso queira utilizar as configurações pré-configuradas, crie o banco chamado 
 
 Starting o projeto agenda:
 Caminha para o diretorio desafio_itflex e digite o seguinte comandos:
-- // Comando para sicronizar entidades do projeto com banco de dados. Esse comando que cria tabelas no DB.
- 
-- // Iniciando servidor django na porta 8000
-- python manage.py runserver 
+ - python manage.py syncdb // Comando para sicronizar entidades do projeto com banco de dados. Esse comando que cria tabelas no DB.
+ - python manage.py runserver // Iniciando servidor django na porta 8000
 
 Testando a aplicação:
 Para testar aplicação por interface gráfica acesse o seguinte link:
