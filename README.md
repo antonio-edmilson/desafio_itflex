@@ -15,7 +15,7 @@ No parâmetro DATABASES altere as configurações do banco de dadods para o dese
 Caso queira utilizar as configurações pré-configuradas, crie o banco chamado agenda.
 
 Starting o projeto agenda:
-Caminha para o diretorio vaga_itflex e digite o seguinte comandos:
+Caminha para o diretorio desafio_itflex e digite o seguinte comandos:
 python manage.py syncdb // Comando para sicronizar entidades do projeto com banco de dados. Esse comando que cria tabelas no DB.
 python manage.py runserver // Iniciando servidor django na porta 8000
 
