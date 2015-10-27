@@ -19,7 +19,7 @@ Caminha para o diretorio desafio_itflex e digite o seguinte comandos:
 python manage.py syncdb // Comando para sicronizar entidades do projeto com banco de dados. Esse comando que cria tabelas no DB.
 python manage.py runserver // Iniciando servidor django na porta 8000
 
-Teste na aplicação:
+Testando a aplicação:
 Para testar aplicação por interface gráfica acesse o seguinte link:
 http://localhost:8000/tarefas
 
